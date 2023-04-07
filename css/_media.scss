@@ -1,0 +1,263 @@
+@media (max-width: 1210px){
+  .logo__items{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about__items{
+    grid-template-columns: repeat(3, 340px);
+  }
+}
+
+@media(max-width: 1100px){
+  .about__items{
+    grid-template-columns: repeat(3, 302px);
+grid-template-rows: 442px 527px 397px;
+  }
+}
+
+
+
+@media (max-width: 1000px) {
+  .main{
+    &__box{
+      flex-direction: column;
+      align-items: center;
+    }
+    &__left{
+      margin-bottom: 126px;
+    }
+    &__pic{
+      width: 414px;
+    }
+    &__title{
+      font-size: 48px;
+    }
+    &__subtitle{
+      font-size: 18px;
+    }
+    &__text{
+      font-size: 18px;
+      max-width: 558px;
+    }
+  }
+  .logo{
+    &__items{
+      flex-wrap: wrap;
+      max-width: 768px;
+      justify-content: center;
+    }
+  }
+  .apply{
+    &__box{
+     flex-wrap: wrap;
+     
+    
+    }
+    &__text{
+    
+    }
+    &__more{
+      margin: 0 auto;
+      margin-top: 68px;
+  
+    }
+    &__title{
+      max-width: 484px;
+    }
+  }
+  .about{
+    &__items-specialTwo{
+    display: none;
+    }
+    &__items{
+      display: grid;
+      grid-auto-flow: column;
+      
+      justify-content: center;
+      margin: 0 auto;
+   
+      grid-template-columns: repeat(1, 366px);
+      grid-template-rows: 392px 416px 392px;
+      gap: 30px;
+     
+    }
+   &__item--special{
+    display: none;
+   }
+  }
+  .clients{
+    &__inners{
+     flex-wrap: wrap;
+     margin: 0 auto;
+     align-items: center;
+     justify-content: center;
+     gap: 64px;
+    }
+    &__title{
+text-align: center;
+  max-width: 600px;
+    }
+    &__inner{
+     margin: 0 auto;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+  }
+  .footer{
+    &__info{
+      flex-wrap: wrap;
+    position: relative;
+    }
+    &__inner{
+   
+    }
+  
+  }
+  .content{
+    grid-template-rows: repeat(2, 362px) ;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(max-width: 630px){
+  .header__link{
+    padding: 2.5%;
+  }
+  .clients__img{
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 550px){
+  .header__link{
+    padding: 2.7%;
+  }
+}
+
+
+@media (max-width:500px){
+  .main{
+   
+  }
+  .footer__inner{
+    padding: 113px 18px;
+    }
+    .info__items{
+      list-style: none;
+    display: table-row-group;
+    }
+    .about__links{
+      margin: 0 auto;
+    }
+    .title-ft{
+      text-align: center;
+    }
+  .header{
+    &__nav{
+      padding: 23px 45px;
+      gap: 16px;
+    }
+    &__link{
+      font-size: 14px;
+      line-height: 19px;
+      padding: 0;
+    }
+    
+  }
+  .main{
+    
+    &__subtitle{
+      font-size: 14px;
+      text-align: center;
+    }
+    &__title{
+      font-size: 24px;
+line-height: 130%;
+text-align: center;
+max-width: 342px;
+    }
+    &__text{
+      font-size: 16px;
+line-height: 160%;
+text-align: center;
+    }
+   .button__box{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 128px;
+   }
+   &__pic{
+    width: 100%;
+   }
+   .logo__pic{
+    max-width: 206px;
+   }
+   
+   .logo-pic3, .logo-pic4{
+    
+   }
+   .logo__items{
+    display: flex;
+   }
+  }
+  .apply{
+    margin-top: 96px;
+    &__box{
+     text-align: center;
+    }
+    &__title{
+      font-size: 24px;
+      line-height: 31px;
+    
+      max-width: 343px;
+      &__text{
+        text-align: center;
+      }
+     
+    }
+
+  }
+  .about{
+    margin-top: 96px;
+  }
+  .about__items{
+    grid-template-columns: repeat(1, 294px);
+    grid-template-rows: 416px 442px 442px;
+    max-width: 100%;
+  }
+  .clients{
+    margin-top: 96px;
+    &__title{
+      margin-bottom: 16px;
+      font-size: 24px;
+line-height: 130%;
+max-width: 342px;
+    }
+    &__text{
+      text-align: center;
+      font-size: 16px;
+      margin-bottom: 16px;
+    }
+    &__img{
+      width: 100%;
+    }
+  }
+  .footer__store{
+    order: -1;
+  }
+  .footer{
+   margin-top: 209px;
+    &__info{
+      
+      margin: 0 auto;
+    }
+    &__store{
+      order: -1;
+    }
+  }
+  
+}

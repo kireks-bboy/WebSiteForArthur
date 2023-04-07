@@ -1,0 +1,20 @@
+.clients {
+  margin-top: 243px;
+
+
+}
+
+.clients__inners {
+  display: flex;
+  justify-content: space-between;
+ gap: 10px;
+}
+.clients__inner p {
+  max-width: 460px;
+}
+.clients__title {
+  margin-bottom: 40px;
+}
+.clients__text {
+ margin-bottom: 20px;
+}

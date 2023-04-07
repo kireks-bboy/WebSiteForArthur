@@ -1,0 +1,45 @@
+.apply {
+  padding-top: 100px;
+  margin-top: 157px;
+ 
+}
+.apply__box {
+  display: flex;
+align-items: center;
+gap: 68px;
+
+}
+
+.apply__title {
+
+margin-bottom: 30px;
+}
+.apply__text {
+margin-bottom: 60px;
+max-width: 460px;
+}
+
+
+
+.apply__button {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 15px 30px;
+  &:hover{
+    color: #3A6888;
+    background-color: transparent;
+    border: $bd;
+ 
+  }
+}
+
+
+
+
+.sliders{
+  max-width: 594px;
+}
+
+.carousel-indicators{
+  margin-bottom: -40px;
+}

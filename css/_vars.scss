@@ -1,0 +1,41 @@
+$text-color: rgba(#ffffffb3, .7);
+$bg: #040C1A;
+$bd: 1px solid #3A6888;
+$item-bg: #132035;
+
+%btn-bg-bd{
+  font-family: 'Open Sans', sans-serif;
+  background-color: #3A68B8;
+border-radius: 5px;
+font-weight: 600;
+font-size: 20px;
+line-height: 27px;
+color: #FFFFFF;
+text-decoration: none;
+border: 1px solid transparent;
+transition: all .3s ease-in-out 0s;
+animation: shake-bottom 7s cubic-bezier(0.455, 0.030, 0.515, 0.955) 1s infinite reverse both;
+}
+
+%title{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+
+%footer-text{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+%text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+}

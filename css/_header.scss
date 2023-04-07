@@ -1,0 +1,29 @@
+.header{
+  background-color: #020A18;
+  z-index: 500;
+  right: 0;
+  left: 0;
+  position: fixed;
+}
+
+.header__nav{
+  display: flex;
+  justify-content: center;
+}
+
+.header__link{
+  text-decoration: none;
+  padding: 3.3%;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.header__link:last-child{
+  padding-right: 0;
+}
+
+.header__link:hover{
+  color: #3A6888;
+}
